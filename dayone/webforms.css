@@ -1,0 +1,48 @@
+/* id selector*/
+#h1{
+   
+    color:maroon;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ /* class selector*/
+.h2{
+    color:blue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    background-color:gray;
+    border: 5px solid black;
+    text-align: center;
+}
+
+ /* Grouping selector*/
+button,input,label{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  /* universal selector*/
+ /*
+
+ *{
+    background-color: blueviolet;
+  }
+
+ */
+
+ /* studo element */
+p::first-line{
+    color: white;
+    text-align: left;
+}
+
+   /* studo class */
+h2::horizintal{
+    color: rgb(144, 14, 55);
+}
+
+  

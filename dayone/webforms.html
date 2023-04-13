@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>TNS Placement Drive </title>
+   <!--Internal/Embeded css--> 
+   <style>  
+
+    label{
+        color:maroon;
+    }
+    input{
+        color:indigo;
+        background-color: aquamarine;
+    }
+   </style>
+
+   <!--External css--> 
+    <link rel="stylesheet" href="./webforms.css">
+
+</head>
+<body>
+
+    <form action="#">
+        <h1 style="color:black">Accenture Registration form</h1><!--Inline css-->
+        <p>All fields are mandetory</p>
+        <label for="Firstname" id="h1">Enter First Name: </label>
+        <input type="text" name="firstname" placeholder="Enter the name"><br><br>
+        
+        <label for="lastname" class="h2">Enter Last Name: </label>
+        <input type="text" name="lastname" required><br><br>
+
+        <label for="email">Enter Email: </label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="password">Enter Password: </label>
+        <input type="password" name="password" required><br><br>
+
+        <label for="gender">Enter Gender: </label><br>
+        <input type="radio" name="gender" value="female" id="option1" >
+        <label for="option1">Female</label><br>
+
+        <input type="radio" name="gender" value="male" id="option2">
+        <label for="option2">Male</label><br>
+
+        <input type="radio" name="gender" value="other" id="option3">
+        <label for="option3">Other</label><br><br>
+
+        <label for="securityques">Security Questions:  </label>
+        <select name="security" id="security" >
+            <option value="op1">What is your favourite color</option>
+            <option value="op2">What is your favourite place</option>
+            <option value="op3">What is your favourite game</option>
+            <option value="op4">What is your favourite dish</option>
+
+        </select><br><br>
+        <label for="answer">Enter your Answer:  </label>
+        <input type="text"required><br><br>
+        <button type="submit" value="submit">Submit</button><br><br>
+
+
+
+    </form>
+</body>
+</html>
